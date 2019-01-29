@@ -8,10 +8,5 @@
   <%= f.label :Artist Id %>
   <%= f.text_field :artist_id %>
 
-  <div class="field">
-    <%= f.label :category_id, 'Post Category:' %><br>
-    <%= f.collection_radio_buttons :category_id, @categories, :id, :name %>
-  </div>
-
   <%= f.submit %>
 <% end %>
